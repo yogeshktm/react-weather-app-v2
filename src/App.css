@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --panel-bg: rgba(0, 0, 0, 0.5);
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -34,5 +48,110 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.wrapper {
+  color: #fff;
+  text-align: left;
+  width: calc(100% - 40px);
+  min-height: calc(100vh - 40px);
+  background-size: 100% 100% !important;
+  padding: 20px;
+}
+.panel {
+  display: inline-block;
+  min-width: 20%;
+  background: var(--panel-bg);
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+.main-panel {
+  min-width: 30%;
+}
+.panel-sm {
+  min-width: 12%;
+}
+.panel-info {
+  display: inline-block;
+  width: 70%;
+}
+.panel-icon {
+  display: inline-block;
+}
+.m-top-20 {
+  margin-top: 20px;
+}
+.sun-moon-info .wi {
+  font-size: 30px;
+  min-width: 40px;
+  margin-right: 10px;
+  text-align: center;
+}
+.sun-moon-info p {
+  margin-bottom: 5px;
+}
+.search-input {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+}
+.weather-search-form {
+  display: inline-flex;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+.btn {
+  appearance: none;
+  -webkit-appearance: none;
+  box-shadow: none;
+  padding: 15px;
+  right: -26px;
+  background: #5e5c5c;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+}
+.today-weather-hour {
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.weather-search {
+  margin-bottom: 30px;
+}
+.error-message {
+  background: var(--panel-bg);
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .panel:not(.panel-sm) {
+    width: calc(100% - 40px);
+  }
+  .wrapper {
+    background-size: cover !important;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .weather-search-form {
+    width: 60%;
+  }
+}
+.logo {
+  display: inline-block;
+  margin-right: 40px;
+}
+.logo i:before {
+  animation: rotateLogo 5s linear 2s infinite alternate;
+}
+@keyframes rotateLogo {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
   }
 }
