@@ -5,7 +5,7 @@ class WeatherSearch extends React.Component {
     return (
       <div className="weather-search">
         <h1 className="logo">
-          WeatherY<i className="wi wi-day-sunny"></i>
+          WeatherY.com<i className="wi wi-day-sunny"></i>
         </h1>
         <form
           className="weather-search-form"
