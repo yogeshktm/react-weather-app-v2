@@ -27,7 +27,7 @@ class WeatherContainer extends React.Component {
     this.getLocation();
   }
   getWeather(city) {
-    const apiUrl = "http://api.weatherapi.com/v1/";
+    const apiUrl = "https://api.weatherapi.com/v1/";
     const apiKey = "31d059311815419595f144452210902";
     const finalUrl =
       apiUrl + "forecast.json" + "?key=" + apiKey + "&q=" + city + "&days=3";
