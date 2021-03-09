@@ -87,7 +87,7 @@ class WeatherContainer extends React.Component {
 
   render() {
     return (
-      <div class="container">
+      <div class="container main-container">
         <WeatherCard
           error={this.state.error}
           errorMessage={this.state.errorText}
