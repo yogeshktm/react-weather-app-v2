@@ -15,6 +15,7 @@ class WeatherContainer extends React.Component {
       errorText: "",
       latitude: "",
       longitude: "",
+      city: "",
     };
     this.getWeather = this.getWeather.bind(this);
     this.handleChange = this.handleChange.bind(this);
@@ -72,10 +73,13 @@ class WeatherContainer extends React.Component {
     console.log(position.coords.latitude, position.coords.longitude);
   }
   getIP() {
-    fetch("https://ipapi.co/8.8.8.8/json/")
+    fetch("https://ipapi.co/json/")
       //.then((response) => console.log(response.status))
       .then((response) => response.json())
       .then((data) => {
+        this.setState({
+          city: data.ip,
+        });
         this.getWeather(data.city);
       });
   }
