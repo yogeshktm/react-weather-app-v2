@@ -47,9 +47,12 @@ class WeatherCard extends React.Component {
     }
     let hourWeather;
     if (data) {
-      hourWeather = location_data[2].forecastday[0].hour.map(function (item) {
+      hourWeather = location_data[2].forecastday[0].hour.map(function (
+        item,
+        key
+      ) {
         return (
-          <div class="panel panel-sm">
+          <div key={key} className="panel panel-sm">
             <p>{item.time}</p>
             <p>{item.condition.text}</p>
             <p>

@@ -21,10 +21,12 @@ class WeatherContainer extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
     this.showPosition = this.showPosition.bind(this);
     this.getLocation = this.getLocation.bind(this);
+    this.getIP = this.getIP.bind(this);
   }
   componentDidUpdate() {}
   componentDidMount() {
-    this.getLocation();
+    //this.getLocation();
+    this.getIP();
   }
   getWeather(city) {
     const apiUrl = "https://api.weatherapi.com/v1/";
@@ -69,6 +71,14 @@ class WeatherContainer extends React.Component {
     this.getWeather(this.state.latitude, this.state.longitude);
     console.log(position.coords.latitude, position.coords.longitude);
   }
+  getIP() {
+    fetch("https://ipapi.co/8.8.8.8/json/")
+      //.then((response) => console.log(response.status))
+      .then((response) => response.json())
+      .then((data) => {
+        this.getWeather(data.city);
+      });
+  }
   handleErrors(response) {
     if (!response.ok) {
       throw Error(response.statusText);
@@ -87,7 +97,7 @@ class WeatherContainer extends React.Component {
 
   render() {
     return (
-      <div class="container main-container">
+      <div className="container main-container">
         <WeatherCard
           error={this.state.error}
           errorMessage={this.state.errorText}
