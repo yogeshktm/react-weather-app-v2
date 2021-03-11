@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8723d0b.chunk.css",
-    "main.js": "/static/js/main.bce1fd1e.chunk.js",
-    "main.js.map": "/static/js/main.bce1fd1e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.888f2162.js",
-    "runtime-main.js.map": "/static/js/runtime-main.888f2162.js.map",
-    "static/js/2.a31bfe7e.chunk.js": "/static/js/2.a31bfe7e.chunk.js",
-    "static/js/2.a31bfe7e.chunk.js.map": "/static/js/2.a31bfe7e.chunk.js.map",
-    "static/js/3.3b252c15.chunk.js": "/static/js/3.3b252c15.chunk.js",
-    "static/js/3.3b252c15.chunk.js.map": "/static/js/3.3b252c15.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.c8723d0b.chunk.css.map": "/static/css/main.c8723d0b.chunk.css.map",
-    "static/js/2.a31bfe7e.chunk.js.LICENSE.txt": "/static/js/2.a31bfe7e.chunk.js.LICENSE.txt",
-    "static/media/cloudy.c0b35de4.gif": "/static/media/cloudy.c0b35de4.gif",
-    "static/media/default.476de4e4.jpg": "/static/media/default.476de4e4.jpg",
-    "static/media/heavy-rain.d2bb0305.gif": "/static/media/heavy-rain.d2bb0305.gif",
-    "static/media/mist.8e607e76.gif": "/static/media/mist.8e607e76.gif",
-    "static/media/overcast.7d61fd8f.gif": "/static/media/overcast.7d61fd8f.gif",
-    "static/media/sunny.25021c58.gif": "/static/media/sunny.25021c58.gif",
-    "static/media/thunder.310cdb2a.gif": "/static/media/thunder.310cdb2a.gif",
-    "static/media/weather-icons.min.css": "/static/media/weathericons-regular-webfont.e218aee6.woff2"
+    "main.css": "/ymdb-react-v2/static/css/main.de0e97bb.chunk.css",
+    "main.js": "/ymdb-react-v2/static/js/main.b6c5887e.chunk.js",
+    "main.js.map": "/ymdb-react-v2/static/js/main.b6c5887e.chunk.js.map",
+    "runtime-main.js": "/ymdb-react-v2/static/js/runtime-main.7fe0bb5f.js",
+    "runtime-main.js.map": "/ymdb-react-v2/static/js/runtime-main.7fe0bb5f.js.map",
+    "static/js/2.a31bfe7e.chunk.js": "/ymdb-react-v2/static/js/2.a31bfe7e.chunk.js",
+    "static/js/2.a31bfe7e.chunk.js.map": "/ymdb-react-v2/static/js/2.a31bfe7e.chunk.js.map",
+    "static/js/3.3b252c15.chunk.js": "/ymdb-react-v2/static/js/3.3b252c15.chunk.js",
+    "static/js/3.3b252c15.chunk.js.map": "/ymdb-react-v2/static/js/3.3b252c15.chunk.js.map",
+    "index.html": "/ymdb-react-v2/index.html",
+    "static/css/main.de0e97bb.chunk.css.map": "/ymdb-react-v2/static/css/main.de0e97bb.chunk.css.map",
+    "static/js/2.a31bfe7e.chunk.js.LICENSE.txt": "/ymdb-react-v2/static/js/2.a31bfe7e.chunk.js.LICENSE.txt",
+    "static/media/cloudy.c0b35de4.gif": "/ymdb-react-v2/static/media/cloudy.c0b35de4.gif",
+    "static/media/default.476de4e4.jpg": "/ymdb-react-v2/static/media/default.476de4e4.jpg",
+    "static/media/heavy-rain.d2bb0305.gif": "/ymdb-react-v2/static/media/heavy-rain.d2bb0305.gif",
+    "static/media/mist.8e607e76.gif": "/ymdb-react-v2/static/media/mist.8e607e76.gif",
+    "static/media/overcast.7d61fd8f.gif": "/ymdb-react-v2/static/media/overcast.7d61fd8f.gif",
+    "static/media/sunny.25021c58.gif": "/ymdb-react-v2/static/media/sunny.25021c58.gif",
+    "static/media/thunder.310cdb2a.gif": "/ymdb-react-v2/static/media/thunder.310cdb2a.gif",
+    "static/media/weather-icons.min.css": "/ymdb-react-v2/static/media/weathericons-regular-webfont.e218aee6.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.888f2162.js",
+    "static/js/runtime-main.7fe0bb5f.js",
     "static/js/2.a31bfe7e.chunk.js",
-    "static/css/main.c8723d0b.chunk.css",
-    "static/js/main.bce1fd1e.chunk.js"
+    "static/css/main.de0e97bb.chunk.css",
+    "static/js/main.b6c5887e.chunk.js"
   ]
 }
